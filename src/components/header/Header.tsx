@@ -1,12 +1,19 @@
 
 import { NavLink } from 'react-router';
+import Logo from "../../assets/Logos/SVAC-H-logo.svg";
+import "./Header.css";
 
 function Header() {
   return (
     <header className="svac-header">
-      <a className="svac-header__logo" href="/">
-        SVAC CARS
-      </a>
+
+      <NavLink
+        to="/"
+        className="svac-header__logo"
+        aria-label="SVAC Cars — Home"
+      >
+        <img src={Logo} alt='SVAC CARS'/>
+      </NavLink>
 
       <nav className="svac-header__nav" aria-label="Main navigation">
         <NavLink to="/" end>
@@ -17,6 +24,7 @@ function Header() {
           Contact
         </NavLink>
       </nav>
+
     </header>
   );
 }
