@@ -59,6 +59,7 @@
   --container-width: 1200px;
   --container-padding: clamp(1.25rem, 4vw, 3rem);
   --header-height: 80px;
+  --header-height-mobile: 68px;
 
   /* Borders and corners */
   --border-width: 1px;
@@ -84,6 +85,16 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+}
+
+/* Hide scrollbar, keep scrolling */
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -96,6 +107,10 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-body);
   -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  padding-top: var(--header-height);
 }
 
 button,
