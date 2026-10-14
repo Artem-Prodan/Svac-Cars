@@ -6,7 +6,7 @@
   min-height: 70svh;
   padding: var(--space-12) var(--container-padding);
   background: var(--color-background-header);
-  padding-bottom: 65px;
+  padding-bottom: 80px;
 }
 
 .contact__layout {
@@ -87,7 +87,7 @@
   margin-top: var(--space-6);
   color: var(--color-text-muted);
   font-family: var(--font-body);
-  font-size: var(--text-base);
+  font-size: var(--text-lg);
   line-height: var(--line-height-body);
   text-align: center;
 }

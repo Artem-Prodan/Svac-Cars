@@ -57,6 +57,9 @@
   color: var(--color-text);
   font-size: var(--text-sm);
   font-weight: var(--font-weight-medium);
+  background-color: transparent;
+  font-family: inherit;
+  cursor: pointer;
   border: 2px solid white;
   border-radius: 4px;
   padding: 5px 10px;
@@ -212,6 +215,21 @@
 .hero__dot--active {
   background: var(--color-white);
   transform: scale(1.25);
+}
+
+/*Scroll Control*/
+html {
+  scroll-padding-top: 80px;
+}
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    scroll-padding-top: 68px;
+  }
 }
 
 /* Responsive */

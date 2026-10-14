@@ -59,7 +59,7 @@ function Hero() {
 
         <div
           className="hero__slider"
-          aria-label="Галерея автомобилей"
+          aria-label="car gallery"
           aria-roledescription="carousel"
         >
           <div className="hero__slides">
@@ -81,12 +81,12 @@ function Hero() {
               className="hero__slider-arrow hero__slider-arrow--previous"
               type="button"
               onClick={showPrevious}
-              aria-label="Предыдущий автомобиль"
+              aria-label="previous car"
             >
               <img src={Arrow} alt="" aria-hidden="true" />
             </button>
 
-            <div className="hero__dots" aria-label="Выбор автомобиля">
+            <div className="hero__dots" aria-label="choose car">
               {cars.map((car, index) => (
                 <button
                   key={car.src}
@@ -95,7 +95,7 @@ function Hero() {
                     index === activeSlide ? 'hero__dot--active' : ''
                   }`}
                   onClick={() => setActiveSlide(index)}
-                  aria-label={`Показать автомобиль ${index + 1}`}
+                  aria-label={`show car ${index + 1}`}
                   aria-pressed={index === activeSlide}
                 />
               ))}
@@ -105,7 +105,7 @@ function Hero() {
               className="hero__slider-arrow hero__slider-arrow--next"
               type="button"
               onClick={showNext}
-              aria-label="Следующий автомобиль"
+              aria-label="next car"
             >
               <img src={Arrow} alt="" aria-hidden="true" />
             </button>

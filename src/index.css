@@ -97,6 +97,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+html,
+body {
+  min-height: 100%;
+}
 body {
   margin: 0;
   min-width: 320px;
@@ -110,6 +114,9 @@ body {
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
   padding-top: var(--header-height);
 }
 

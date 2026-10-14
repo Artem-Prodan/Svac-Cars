@@ -15,7 +15,7 @@ function Contact() {
             с нами
           </h2>
 
-          <a className="contact__button" href="mailto:YOUR_EMAIL">
+          <a className="contact__button" href="">
             <span>Contact</span>
           </a>
         </div>

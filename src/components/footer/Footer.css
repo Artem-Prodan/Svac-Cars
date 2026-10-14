@@ -1,0 +1,93 @@
+
+/* ========================================
+   SVAC FOOTER
+   ======================================== */
+.svac-footer {
+  width: 100%;
+  padding: var(--space-6) var(--container-padding);
+
+  background-color: var(--color-background-header);
+  border-top: var(--border-width) solid var(--color-border);
+}
+.svac-footer__layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+/* Logo */
+.svac-footer__logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  transition: opacity var(--transition-fast);
+}
+.svac-footer__logo img {
+  display: block;
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin-top: -5px;
+}
+.svac-footer__logo:hover {
+  opacity: 0.8;
+}
+.svac-footer__logo:active {
+  opacity: 0.5;
+}
+
+/* Phone */
+.svac-footer__phone {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+
+  color: var(--color-text-muted);
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-medium);
+  pointer-events: none;
+  margin-right: 18px;
+
+  transition: color var(--transition-fast);
+}
+.svac-footer__phone-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  object-fit: contain;
+
+  filter: brightness(0) saturate(100%) invert(50%);
+  transition: filter var(--transition-fast);
+}
+
+/* Keyboard focus */
+.svac-footer__logo:focus-visible,
+.svac-footer__phone:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .svac-footer {
+    padding-block: var(--space-6);
+  }
+  .svac-footer__logo img {
+    width: 105px;
+  }
+  .svac-footer__phone {
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+  }
+  .svac-footer__phone-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
