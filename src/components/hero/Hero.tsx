@@ -1,8 +1,8 @@
 import './Hero.css';
 import Arrow from '../../assets/Logos/Arrow.svg';
-import Car1 from '../../assets/Images/cars1.jpg';
-import Car2 from '../../assets/Images/cars2.jpg';
-import Car3 from '../../assets/Images/cars3.jpg';
+import Car1 from '../../assets/Images/cars1.webp';
+import Car2 from '../../assets/Images/cars2.webp';
+import Car3 from '../../assets/Images/cars3.webp';
 import { useEffect, useState } from 'react';
 
 
