@@ -4,22 +4,25 @@ import './App.css'
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
+import Contacts from './pages/Contacts';
+import ScrollToTop from './components/customHooks/ScrollToTop';
 
 
 function App() {
 
   return (
    <BrowserRouter>
+    <ScrollToTop/>
+
     <Header/>
 
     <main className="app-main">
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/contact' element={<Contacts/>} />
       </Routes>
     </main>
-    
+
     <Footer/>
    </BrowserRouter>
   )

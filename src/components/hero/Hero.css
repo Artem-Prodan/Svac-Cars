@@ -62,7 +62,7 @@
   cursor: pointer;
   border: 2px solid white;
   border-radius: 4px;
-  padding: 5px 10px;
+  padding: 10px 15px;
 
   transition:
     opacity var(--transition-fast),

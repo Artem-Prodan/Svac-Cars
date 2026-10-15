@@ -37,10 +37,13 @@
 
   transition:
     opacity var(--transition-fast),
-    width var(--transition-normal);
+    width var(--transition-fast),
+    margin-left var(--transition-fast);
 }
 .svac-header__logo:hover img{
-  width: 122px
+  width: 124px;
+  opacity: 0.8;
+  margin-left: -1px;
 }
 .svac-header__logo:active img{
   opacity: 0.5;
