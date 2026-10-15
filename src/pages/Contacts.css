@@ -311,6 +311,7 @@
    ======================================== */
 @media (max-width: 480px) {
   .contacts {
+    margin-top: -40px;
     padding-block: var(--space-12);
   }
   .contacts__layout {
