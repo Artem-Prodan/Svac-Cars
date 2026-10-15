@@ -14,31 +14,31 @@ import DocIcon from '../assets/Logos/doc.svg';
 const contactLinks = [
   {
     label: 'Telegram',
-    href: 'https://t.me/your_username',
+    href: 'https://t.me/svaccars_de',
     icon: TelegramIcon,
     platform: 'telegram',
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/491234567890',
+    href: 'https://api.whatsapp.com/send/?phone=4915158802065&text=%D0%9A%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D1%96%D1%8F+%D0%BF%D0%BE+%D0%B0%D0%B2%D1%82%D0%BE...&type=phone_number&app_absent=0',
     icon: WhatsAppIcon,
     platform: 'whatsapp',
   },
   {
     label: 'Facebook',
-    href: 'https://facebook.com/your_page',
+    href: 'https://www.facebook.com/people/SVACcarsde/61594670771268/',
     icon: FacebookIcon,
     platform: 'facebook',
   },
   {
     label: 'Instagram',
-    href: 'https://instagram.com/your_page',
+    href: 'https://www.instagram.com/svaccars.de/',
     icon: InstagramIcon,
     platform: 'instagram',
   },
   {
     label: 'Impressum | Datenschutz',
-    href: '/impressum-datenschutz',
+    href: 'https://docs.google.com/document/d/1ELakQIuErZiF1uZXYXX7CmP0MIF0jXpv/edit?pli=1',
     icon: DocIcon,
     platform: 'legal',
   },
