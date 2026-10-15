@@ -16,12 +16,12 @@ function Hero() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   useEffect(() => {
-    const intervalId = window.setInterval(() => {
+    const timeoutId = window.setTimeout(() => {
       setActiveSlide((current) => (current + 1) % cars.length);
     }, 3500);
 
-    return () => window.clearInterval(intervalId);
-  }, []);
+    return () => window.clearTimeout(timeoutId);
+  }, [activeSlide]);
 
   const showPrevious = () => {
     setActiveSlide(

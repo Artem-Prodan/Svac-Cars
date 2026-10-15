@@ -8,7 +8,7 @@
   width: 100%;
   min-height: 70svh;
   box-sizing: border-box;
-  margin-top: 40px;
+  margin-top: 45px;
   margin-bottom: 100px;
   padding: var(--space-10) var(--container-padding);
   background: var(--color-background);
@@ -22,7 +22,9 @@
   max-width: var(--container-width);
   margin-inline: auto;
 }
+
 .contacts__content {
+  padding-top: 32px;
   min-width: 0;
 }
 
@@ -110,6 +112,7 @@
    SOCIAL AND CONTACT LINKS
    ======================================== */
 .contacts__links {
+  margin-top: -30px;
   display: flex;
   flex-direction: column;
   gap: var(--space-6);
@@ -263,7 +266,7 @@
    ======================================== */
 @media (max-width: 768px) {
   .contacts {
-    margin-top: -30px;
+    margin-top: -65px;
     margin-bottom: 20px;
     min-height: auto;
     padding-block: var(--space-16);
@@ -297,6 +300,7 @@
     flex-basis: 18px;
   }
   .contacts__links {
+    margin-top: 20px;
     max-width: 520px;
     margin-inline: auto;
   }
