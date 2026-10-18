@@ -1,8 +1,8 @@
 import './Hero.css';
 import Arrow from '../../assets/Logos/Arrow.svg';
-import Car1 from '../../assets/Images/cars1.webp';
-import Car2 from '../../assets/Images/cars2.webp';
-import Car3 from '../../assets/Images/cars3.webp';
+import Car1 from '../../assets/Images/car1.webp';
+import Car2 from '../../assets/Images/car2.webp';
+import Car3 from '../../assets/Images/car3.webp';
 import { useEffect, useState } from 'react';
 
 
@@ -38,7 +38,7 @@ function Hero() {
       <div className="hero__layout">
         <div className="hero__content">
           <p className="hero__eyebrow">
-            SVAC CARS · FAHRZEUGVERMITTLUNG
+            SVAC CARS · ESSEN & NRW
           </p>
 
           <h1 className="hero__title" id="hero-title">

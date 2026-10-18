@@ -25,7 +25,7 @@ const contactLinks = [
   },
   {
     label: 'Facebook',
-    href: 'https://www.facebook.com/people/SVACcarsde/61594670771268/',
+    href: 'https://www.facebook.com/people/Svac-Cars/61595120991662/',
     icon: FacebookIcon,
     platform: 'facebook',
   },
@@ -58,9 +58,7 @@ function Contacts() {
           </p>
 
           <h1 className="contacts__title" id="contacts-title">
-            Будем
-            <br />
-            на связи
+            Мы на связи
           </h1>
 
           <p className="contacts__description">

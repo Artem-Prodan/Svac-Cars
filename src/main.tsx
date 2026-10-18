@@ -1,6 +1,8 @@
 import '@fontsource-variable/manrope';
 import '@fontsource-variable/onest';
 
+import '@fontsource-variable/nunito';
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
