@@ -8,7 +8,7 @@
   box-sizing: border-box;
   padding: var(--space-12) var(--container-padding);
   padding-bottom: 80px;
-  background-color: #000000;
+  background-color: var(--color-background-black);
   padding-bottom: 120px;
 }
 
@@ -41,7 +41,6 @@
   font-size: var(--heading-xl);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
-  letter-spacing: -0.04em;
 }
 
 .svac-contact__button {
@@ -65,7 +64,7 @@
 }
 
 .svac-contact__button:hover {
-  color: var(--color-black);
+  color: var( --color-true-black);
   background-color: var(--color-white);
   border-color: var(--color-white);
 }
@@ -104,7 +103,7 @@
   text-align: center;
 }
 
-/* Адаптация для планшетов и мобильных устройств */
+/* Tablets and Mobiles */
 @media (max-width: 768px) {
   .svac-contact {
     min-height: auto;

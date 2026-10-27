@@ -22,7 +22,7 @@ function Contact() {
           </h2>
 
           <Link className="svac-contact__button" to="/contact">
-            <span>Contact</span>
+            <span>Контакты</span>
           </Link>
         </div>
 

@@ -23,6 +23,10 @@ function Header() {
         <NavLink to="/contact">
           Contact
         </NavLink>
+
+        <NavLink to={"/questions"}>
+          Questions
+        </NavLink>
       </nav>
 
     </header>

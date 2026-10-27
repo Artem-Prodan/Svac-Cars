@@ -46,7 +46,6 @@
   font-size: var(--heading-xl);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
-  letter-spacing: -0.04em;
 }
 .contacts__description {
   max-width: 440px;

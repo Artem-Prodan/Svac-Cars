@@ -39,7 +39,6 @@
   font-size: var(--heading-xl);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
-  letter-spacing: -0.04em;
 }
 
 .hero__description {
@@ -50,6 +49,7 @@
   max-width: 270px;
 }
 
+/*More Button*/
 .hero__more {
   display: inline-flex;
   align-items: center;
@@ -61,7 +61,7 @@
   background-color: transparent;
   font-family: inherit;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid var(--color-white);
   border-radius: 4px;
   padding: 10px 15px;
 
@@ -81,10 +81,12 @@
 }
 
 .hero__more:hover {
-  border: 2px solid rgb(176, 176, 176);
+  color: var(--color-true-black);
+  background-color: var(--color-white);
 }
 
 .hero__more:hover img {
+  filter: brightness(1) invert(0);
   transform: rotate(270deg);
 }
 

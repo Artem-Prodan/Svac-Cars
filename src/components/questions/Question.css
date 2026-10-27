@@ -1,0 +1,202 @@
+
+.svac-question {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 70svh;
+  padding: clamp(4rem, 8vw, 7.5rem) var(--container-padding);
+  background-color: var(--color-background-black);
+}
+
+.svac-question__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+.svac-question__content {
+  min-width: 0;
+}
+
+.svac-question__eyebrow {
+  margin: 0 0 var(--space-6);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.svac-question__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--heading-xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  overflow-wrap: break-word;
+}
+
+.svac-question__description {
+  max-width: 38rem;
+  margin: var(--space-6) 0 0;
+  color: var(--color-text-muted);
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--line-height-body);
+  text-align: left;
+}
+
+.svac-question__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: var(--space-10);
+  padding: 0.75rem 1.875rem;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  border: 2px solid var(--color-white);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.svac-question__button:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.svac-question__button:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 4px;
+}
+
+.svac-question__button:active {
+  opacity: 0.7;
+}
+
+.svac-question__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+}
+
+.svac-question__logo {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .svac-question {
+    min-height: auto;
+    padding-block: clamp(4rem, 9vw, 6rem);
+  }
+
+  .svac-question__layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .svac-question__title {
+    font-size: var(--heading-lg);
+  }
+
+  .svac-question__logo {
+    max-width: 340px;
+  }
+
+  .svac-question__description {
+    font-size: var(--text-base);
+  }
+
+  .svac-question__button {
+    margin-top: var(--space-8);
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .svac-question {
+    padding-block: var(--space-12);
+  }
+
+  .svac-question__layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-8);
+  }
+
+  .svac-question__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .svac-question__eyebrow {
+    margin-bottom: var(--space-4);
+  }
+
+  .svac-question__title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .svac-question__description {
+    max-width: 32rem;
+    margin-top: var(--space-4);
+    font-size: var(--text-base);
+    text-align: center;
+  }
+
+  .svac-question__button {
+    margin-top: var(--space-8);
+  }
+
+  .svac-question__brand {
+    margin-top: -20px;
+    width: 100%;
+  }
+
+  .svac-question__logo {
+    width: min(78%, 300px);
+    max-width: 100%;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 380px) {
+  .svac-question {
+    padding-block: var(--space-8);
+  }
+
+  .svac-question__layout {
+    gap: var(--space-6);
+  }
+
+  .svac-question__title {
+    font-size: 2rem;
+  }
+
+  .svac-question__description {
+    font-size: var(--text-sm);
+  }
+
+  .svac-question__button {
+    padding: 0.7rem 1.5rem;
+  }
+}
