@@ -3,13 +3,13 @@ import './Guide.css';
 import { Link } from 'react-router';
 import Arrow from '../../assets/Logos/Arrow.svg';
 import vincode from '../../assets/Images/vincode.png';
-import vinDiagram from '../../assets/Images/vin-diagram.png';
+import vinDiagram from '../../assets/Images/vinDiagram.png';
 
 import carVertical from '../../assets/Images/carVertical.png';
-import carfax from '../../assets/Images/carfax.png';
-import autoDNA from '../../assets/Images/autoDNA.png';
-import vincario from '../../assets/Images/vincario.png';
-import cebia from '../../assets/Images/cebia.png';
+import carfax from '../../assets/Images/Carfax.png';
+import autoDNA from '../../assets/Images/autodna.png';
+import vincario from '../../assets/Images/Vincario.png';
+import cebia from '../../assets/Images/Cebia.png';
 
 function VinCode() {
   return (
