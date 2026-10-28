@@ -6,10 +6,11 @@ import vincode from '../../assets/Images/vincode.png';
 import vinDiagram from '../../assets/Images/vinDiagram.png';
 
 import carVertical from '../../assets/Images/carVertical.png';
-import carfax from '../../assets/Images/Carfax.png';
-import autoDNA from '../../assets/Images/autodna.png';
-import vincario from '../../assets/Images/Vincario.png';
-import cebia from '../../assets/Images/Cebia.png';
+import autoDNA from '../../assets/Images/autodna.webp';
+import carfax from '../../assets/Images/carfax.webp';
+import vincario from '../../assets/Images/vincario.webp';
+import cebia from '../../assets/Images/cebia.webp';
+
 
 function VinCode() {
   return (
