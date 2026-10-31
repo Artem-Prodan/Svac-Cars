@@ -22,10 +22,10 @@
   --color-border: var(--color-gray-600);
 
   /* Typography */
-  --font-heading: 'Nunito Variable', sans-serif;
+  --font-heading: 'Playfair Display', sans-serif;
   --font-body: 'Manrope Variable', sans-serif;
   /* Letter spacing for headings */
-  --heading-letter-spacing: 0.01em;
+  --heading-letter-spacing: 0.03em;
 
   --font-weight-regular: 400;
   --font-weight-medium: 500;
